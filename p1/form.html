@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        
+    <label>Name:
+        <input type="text" name="name" id="name" required>
+    </label>
+
+    <fieldset>
+        <legend>Age</legend>
+        <label>&lt;18 <input name="age" type="radio" value="-18"></label>
+        <label>19-35 <input name="age" type="radio" value="19-35"></label>
+        <label>36-48 <input name="age" type="radio" value="36-48"></label>
+        <label>&gt;49 <input name="age" type="radio" value="49-"></label>
+    </fieldset>
+
+
+    <label for="profession">Profession:
+        <input type="text" name="profession" id="profession" list="professions">
+    <datalist id="professions">
+        <option>Engineer</option>
+        <option>Doctor</option>
+        <option>Teacher</option>
+    </datalist>
+    </label>
+    
+    <label>Country:
+        <select name="country" id="country" required>
+            <option value="">&nbsp;</option>
+            <option value="pt">Portugal</option>
+            <option value="esp">Spain</option>
+            <option value="us">USA</option>
+        </select>
+    </label>
+
+    <fieldset>
+        <legend>Interests</legend>
+            <label>Sports
+                <input type="checkbox" name="interest" id="sports">
+            </label>
+            
+            <label>Books
+                <input type="checkbox" name="interest" id="books">
+            </label>
+
+            <label>Cinema
+                <input type="checkbox" name="interest" id="cinema">
+            </label>
+
+            <label>Music
+                <input type="checkbox" name="interest" id="music">
+            </label>
+    </fieldset>
+
+    <label>How did you find about this site?
+        <textarea name="question" id="question"></textarea>
+    </label>
+
+<button type="submit">Send</button>
+
+        </form>
+    </body>
+</html>

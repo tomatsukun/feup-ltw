@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:400,600');
+
+
+
+body > header{
+    padding-top: 0.5em;
+    background-color: #296FD5;
+    font-family: "Poppins";
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+
+body > header *{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+body header h2{
+font-weight: normal;
+}
+
+
+section#news p {
+    font-family: "Lora";
+    line-height: 1.4em;
+
+}
+
+
+
+
+
+
+
+section header a{
+    text-decoration: none;
+
+}
+
+
+section header a:hover{
+    color: white;
+    background-color: #2A2F33;
+}
+
+
+#related{
+    background-color: #272E35;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+
+}
+
+#related > article > p {
+    color:  white;
+}
+
+
+aside#related *  {
+    color:  white;
+    text-decoration: none;
+}
+
+
+nav#menu > ul *{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
+
+section footer{
+    background-color: #DB716B ;
+}
+
+
+body > footer{
+    background-color: #272E35;
+    color: white;
+    padding-top: 0.2em;
+    padding-bottom: 0.1em;
+    padding-left: 0.5em;
+    margin-bottom: 10px;
+}
+
+#news{
+    margin-bottom: 10px;
+
+
+}
